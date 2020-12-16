@@ -1,4 +1,4 @@
-!/bin/bash
+# !/bin/bash
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
@@ -11,13 +11,13 @@
 #
 
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+# sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 # 主题
-git clone https://github.com/rosywrt/luci-theme-rosy.git
+# git clone https://github.com/rosywrt/luci-theme-rosy.git
 # 插件
-git clone https://github.com/destan19/OpenAppFilter.git
-git clone https://github.com/kenzok8/openwrt-packages.git
-git clone https://github.com/kenzok8/small.git
+# git clone https://github.com/destan19/OpenAppFilter.git
+# git clone https://github.com/kenzok8/openwrt-packages.git
+# git clone https://github.com/kenzok8/small.git
