@@ -1,4 +1,4 @@
-!/bin/bash
+# !/bin/bash
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
@@ -14,8 +14,8 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 # 主题
-git clone https://github.com/rosywrt/luci-theme-rosy.git
+# git clone https://github.com/rosywrt/luci-theme-rosy.git
 # 插件
-git clone https://github.com/destan19/OpenAppFilter.git
-git clone https://github.com/kenzok8/openwrt-packages.git
-git clone https://github.com/kenzok8/small.git
+# git clone https://github.com/destan19/OpenAppFilter.git
+# git clone https://github.com/kenzok8/openwrt-packages.git
+# git clone https://github.com/kenzok8/small.git
